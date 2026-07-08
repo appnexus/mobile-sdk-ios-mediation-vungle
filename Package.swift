@@ -36,7 +36,7 @@ let package = Package(
         
         .package(
             url: "https://github.com/appnexus/mobile-sdk-ios-spm.git",
-            exact: .init(sdkVersion)!
+            exact: Version(stringLiteral: sdkVersion)
         )
     ],
 
