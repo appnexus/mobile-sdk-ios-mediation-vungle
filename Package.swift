@@ -32,6 +32,11 @@ let package = Package(
         .package(
             url: "https://github.com/Vungle/VungleAdsSDK-SwiftPackageManager.git",
             exact: "7.3.2"
+        ),
+        
+        .package(
+            url: "https://github.com/appnexus/mobile-sdk-ios-spm.git",
+            exact: "9.12.0"
         )
     ],
 
@@ -47,7 +52,12 @@ let package = Package(
             dependencies: [
                 .product(
                     name: "VungleAdsSDK",
-                    package: "VungleAdsSDK-SwiftPackageManager"
+                    package: "vungleadssdk-swiftpackagemanager"
+                ),
+                
+                .product(
+                    name: "AppNexusSDK",
+                    package: "mobile-sdk-ios-spm"
                 )
             ]
         )
