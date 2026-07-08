@@ -5,7 +5,9 @@ import PackageDescription
 let sdkVersion = "9.12.1"
 let baseUrl = "https://adsdk.bing.net/mobile/ios/releases"
 
-let vungleAdapterChecksum = "99e764f706b3a1c31580368601036022436a1733d06885b003d9878dbd109c23"
+let vungleAdapterChecksum = """
+4a4d27b454f4ff39ca5bc9c6321cd2f3715b0dc89ebea7a4df1142d90b9059e5
+"""
 
 let package = Package(
     name: "ANVungleAdapter",
