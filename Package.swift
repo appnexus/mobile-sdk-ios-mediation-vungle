@@ -2,11 +2,11 @@
 
 import PackageDescription
 
-let sdkVersion = "9.12.1"
+let sdkVersion = "9.14.0"
 let baseUrl = "https://adsdk.bing.net/mobile/ios/releases"
 
 let vungleAdapterChecksum = """
-4a4d27b454f4ff39ca5bc9c6321cd2f3715b0dc89ebea7a4df1142d90b9059e5
+273b53fd3f3e98d33fb8541e6c99d47963c73536f06822648908b1c591a8aa2f
 """
 
 let package = Package(
@@ -15,7 +15,7 @@ let package = Package(
     defaultLocalization: "en",
 
     platforms: [
-        .iOS(.v12)
+        .iOS(.v15)
     ],
 
     products: [
